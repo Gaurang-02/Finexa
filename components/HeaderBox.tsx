@@ -8,7 +8,7 @@ const HeaderBox = ({
 }: HeaderBoxProps) => {
   return (
     <div className="flex flex-col gap-1">
-      <h1 className="text-24 lg:text-30 font-semibold text-gray-900">
+      <h1 className="text-3xl lg:text-30 font-semibold text-gray-900">
         {title}
         {type === "greeting" && <span className="text-blue-500"> &nbsp;{user}</span>}
       </h1>
